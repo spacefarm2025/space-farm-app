@@ -1,0 +1,53 @@
+.catRing {
+  background: url("../../../assets/leaderboard/circle/1-circle.png") no-repeat
+    center center; // Путь к изображению кольца
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 20px 0;
+}
+
+.circleImage {
+  position: absolute;
+  width: 100%;
+}
+
+.catImage {
+  position: absolute;
+  width: 50%;
+}
+
+.titleImage {
+  position: absolute;
+  width: 50%;
+  margin-top: 30%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 420px), (max-height: 720px) {
+  .catComponent {
+    margin-top: 0px;
+    height: 330px;
+  }
+  .circleImage {
+    position: absolute;
+    width: 80%;
+  }
+  .catImage {
+    position: absolute;
+    width: 30%;
+  }
+  .titleImage {
+    position: absolute;
+    width: 50%;
+    margin-top: 30%;
+  }
+}

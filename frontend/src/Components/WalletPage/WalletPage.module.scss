@@ -1,0 +1,305 @@
+.walletContainer {
+  margin-top: -5px;
+  position: relative;
+}
+
+.accordionList {
+  height: 55vh;
+  overflow-y: scroll;
+}
+
+.scfa {
+  width: 200px;
+  margin: 15px auto 0 auto;
+  position: relative;
+  background: linear-gradient(to top, #076943, #1e9468);
+  border: 3px solid #baeae7;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 0;
+  .head {
+    margin-left: 25px;
+    color: #baeae7;
+    font-size: 14px;
+  }
+  .balance {
+    margin-left: 25px;
+    color: #fff;
+    font-size: 20px;
+  }
+  img {
+    position: absolute;
+    left: -10px;
+    width: 60px;
+  }
+}
+
+.buttonGroup {
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  button {
+    max-width: 100%;
+    min-width: 150px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .withdrawButton {
+    background-color: gray;
+    border: 2px solid rgb(174, 174, 174);
+    // border: 2px solid #baeae7;
+    // background: linear-gradient(to right, #2db683, #22a473);
+    // color: #034d2e;
+  }
+  .depositButton {
+    background-color: gray;
+    border: 2px solid rgb(174, 174, 174);
+    // border: 2px solid #fff396;
+    // background: linear-gradient(to right, #efc336, #f4990a);
+    // color: #613405;
+  }
+  .exchangeButton {
+    border: 2px solid #fff396;
+    background: linear-gradient(to right, #efc336, #f4990a);
+    color: #613405;
+  }
+}
+
+.walletBalanceContainer {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 18px 18px;
+  background: linear-gradient(to bottom, #209669, #147a54);
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: 3.5px solid #62fbc2;
+  align-items: stretch;
+  :first-child {
+    border-radius: 0 0 0 18px;
+  }
+  :last-child {
+    border-right: none;
+    border-radius: 0 0 18px 0;
+  }
+}
+
+.walletItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 3.5px solid #62fbc2;
+  gap: 5px;
+  padding: 1px 0;
+
+  img {
+    width: 37px;
+    height: auto;
+  }
+  span {
+    font-family: "RaceSport";
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 3px;
+  }
+}
+
+.topButtons {
+  display: flex;
+  justify-content: center;
+
+  button {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    border-radius: 20px 20px 10px 10px;
+    height: 50px;
+    font-size: 24px;
+    background: linear-gradient(to top, #8323b1, #b649eb);
+    border: solid 3px #e3a9ff;
+    color: #e3a9ff;
+  }
+
+  button.active {
+    background: linear-gradient(to top, #df6d17, #f8a32b);
+    border: solid 3px #ffde83;
+    color: #ffde83;
+  }
+
+  button:hover {
+    transform: translateY(-3px);
+  }
+
+  button:active {
+    transform: translateY(3px);
+    box-shadow: inset 0 2px 0 #8a4b00;
+  }
+}
+
+.soon {
+  padding: 30px 15px;
+}
+
+.exchangeFields {
+  padding: 20px 15px;
+  .fieldImg {
+    position: absolute;
+    width: 45px;
+    right: 10px;
+    top: 7px;
+  }
+
+  .swapImg {
+    width: 50px;
+    margin-top: -14px;
+    margin-bottom: -19px;
+    position: relative;
+    z-index: 2;
+  }
+
+  input {
+    padding: 20px 10px 5px 10px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 24px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 600;
+  }
+  label {
+    position: absolute;
+    font-size: 15px;
+    top: 3px;
+    left: 12px;
+  }
+  .fieldFrom {
+    position: relative;
+    input {
+      background: linear-gradient(to top, #0c724b, #1c9064);
+      border: solid 3px #d9e0ee;
+      text-decoration: underline;
+    }
+  }
+  .fieldTo {
+    position: relative;
+    input {
+      background: linear-gradient(to top, #bf8408, #eab41a);
+      border: solid 3px #fddc7b;
+      pointer-events: none;
+    }
+  }
+  .swapError {
+    margin-top: 5px;
+    color: red;
+    font-size: 15px;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.form {
+  padding: 15px;
+  .formGroup {
+    position: relative;
+  }
+  .bankAmount {
+    label {
+      top: 5px;
+      left: 10px;
+      position: absolute;
+      font-size: 14px;
+    }
+    input {
+      padding: 20px 10px 5px 10px;
+      border-radius: 15px;
+      border: 3px solid #d9e0ee;
+      outline: none;
+      font-size: 24px;
+      width: 100%;
+      box-sizing: border-box;
+      color: #fff;
+      font-weight: 600;
+      background-color: inherit;
+      text-decoration: underline;
+    }
+  }
+  .bankWallet {
+    margin-top: 15px;
+    input {
+      width: 80%;
+      box-sizing: border-box;
+      padding: 6px;
+      border-radius: 15px;
+      border: 2px solid #d9e0ee;
+      background-color: #23a574;
+      outline: none;
+      font-size: 16px;
+    }
+    input::-webkit-input-placeholder {
+      color: #034d2e;
+      font-size: 16px;
+      opacity: 1;
+      text-decoration: underline;
+    }
+
+    input::-moz-placeholder {
+      color: #034d2e;
+      font-size: 16px;
+      opacity: 1;
+      text-decoration: underline;
+    }
+
+    input:-ms-input-placeholder {
+      color: #034d2e;
+      font-size: 16px;
+      opacity: 1;
+      text-decoration: underline;
+    }
+
+    input::-ms-input-placeholder {
+      color: #034d2e;
+      font-size: 16px;
+      opacity: 1;
+      text-decoration: underline;
+    }
+  }
+}
+.dollarSign {
+  position: absolute;
+  font-size: 22px;
+  right: 5px;
+  top: 15px;
+}
+
+.warning {
+  margin-top: 5px;
+  color: red;
+  font-size: 15px;
+  text-shadow: 0px 0px 1px #000;
+}
+
+.connectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10vh;
+}

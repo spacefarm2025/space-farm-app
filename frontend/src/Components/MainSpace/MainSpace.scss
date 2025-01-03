@@ -1,0 +1,98 @@
+.background {
+  top: 0;
+  bottom: 0;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  &.noscroll {
+    .background-img {
+      height: 100%;
+    }
+  }
+  .background-img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+
+    z-index: -1;
+  }
+}
+
+.content {
+  position: absolute;
+  bottom: 250px;
+  // top: 22%;
+
+  top: 225px;
+  width: -webkit-fill-available;
+  width: -moz-available;
+}
+
+.wheel-content {
+  display: flex;
+  height: 100vh;
+  z-index: 1;
+  width: -webkit-fill-available;
+  width: -moz-available;
+}
+
+@media (max-width: 420px) {
+  .content {
+    top: 110px;
+  }
+}
+
+@media (max-height: 720px) {
+  .noscroll {
+    .content {
+      top: 110px;
+    }
+  }
+}
+
+.go-to-planets-button {
+  background: url("../../assets/modals/Back.png") no-repeat center;
+
+  background-size: contain;
+  width: 125px;
+  height: 50px;
+  color: #613405;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 14%;
+  left: 5%;
+}
+
+.volume-button {
+  /* display: inline-block; */
+  width: 35px;
+  color: #552c0b;
+  background: linear-gradient(to right, #efc437, #f59809);
+  border-radius: 50px;
+  border: 2px solid #fff396;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: inset 0 -3px 0 #613405;
+  position: fixed;
+  bottom: 14%;
+  right: 5%;
+  padding: 5px;
+}
+
+.volume-button:hover {
+  transform: translateY(-3px);
+}
+
+.volume-button:active {
+  transform: translateY(3px);
+  box-shadow: inset 0 2px 0 #8a4b00;
+}
+
+.volume-button img {
+  width: 20px;
+  height: 15px;
+}

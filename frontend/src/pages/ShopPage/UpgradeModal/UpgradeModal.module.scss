@@ -1,0 +1,116 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  z-index: 100000;
+}
+
+.modalOverlay.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modalContent {
+  position: relative;
+  background-image: url("../../../assets/shop/Information.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: scale(0.7);
+  transition: transform 0.3s, opacity 0.3s;
+  width: 93vw;
+  max-width: 355px;
+  height: calc(93vw * 0.56);
+  max-height: 200px;
+  span {
+    font-family: "RaceSport";
+    color: #fff;
+  }
+
+  .level {
+    position: absolute;
+    font-size: 28px;
+    bottom: 62%;
+    left: 31%;
+  }
+
+  .time {
+    position: absolute;
+    font-size: 20px;
+    left: 68%;
+    bottom: 70%;
+  }
+  .incomeCont {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    left: 49%;
+    bottom: 32%;
+    .income {
+      font-size: 28px;
+    }
+    .plusIncom {
+      font-size: 20px;
+      color: #8dff92;
+    }
+  }
+  .incText {
+    position: absolute;
+    color: #fff;
+    font-size: 22px;
+    left: 8%;
+    bottom: 37%;
+  }
+  .price {
+    position: absolute;
+    bottom: 8%;
+    left: 21%;
+    color: #613405;
+    font-size: 28px;
+  }
+  .upgrade {
+    position: absolute;
+    width: 70px;
+    bottom: -5px;
+    left: -10px;
+    cursor: pointer;
+  }
+}
+
+.close {
+  position: absolute;
+  right: -10px;
+  top: -15px;
+  width: 45px;
+  cursor: pointer;
+}
+
+.seedImg {
+  position: absolute;
+  width: 60px;
+  top: 5%;
+  left: 4%;
+}
+
+.modalContent.zoomIn {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.modalContent.zoomOut {
+  transform: scale(0.7);
+  opacity: 0;
+}

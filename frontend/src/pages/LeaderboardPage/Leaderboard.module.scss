@@ -1,0 +1,86 @@
+.catComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: -75px;
+  max-height: 500px;
+}
+
+.topButtons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.buttonMyCat {
+  background: url("../../assets/leaderboard/my-cat.png") no-repeat center center;
+  background-size: contain;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 60px;
+}
+
+.buttonBestCat {
+  background: url("../../assets/leaderboard/best-cats.png") no-repeat center center;
+  background-size: contain;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 60px;
+}
+
+.catRing {
+  background: url("../../assets/leaderboard/circle/1-circle.png") no-repeat center center;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.circleImage {
+  position: absolute;
+  width: 100%;
+}
+
+.catImage {
+  position: absolute;
+  width: 50%;
+}
+
+.titleImage {
+  position: absolute;
+  width: 50%;
+  margin-top: 25%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 420px), (max-height: 720px) {
+  .catComponent {
+    margin-top: 0px;
+    height: 330px;
+  }
+  .circleImage {
+    position: absolute;
+    width: 80%;
+  }
+  .catImage {
+    position: absolute;
+    width: 30%;
+  }
+  .titleImage {
+    position: absolute;
+    width: 50%;
+    margin-top: 30%;
+  }
+}

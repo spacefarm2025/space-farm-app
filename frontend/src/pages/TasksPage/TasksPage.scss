@@ -1,0 +1,112 @@
+.earn-content {
+  padding: 20px;
+  overflow-y: scroll;
+  max-height: 55vh;
+  margin-top: -50px;
+
+  .tasks-container {
+    padding-left: 20px;
+  }
+
+  .task {
+    background: linear-gradient(to right, #0a7164, #33d199);
+    border-radius: 20px;
+    border: 3.5px solid #a8dfff;
+    position: relative;
+    height: 70px;
+    max-width: 360px;
+    width: 80vw;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 25px;
+    &.youtube {
+      background: linear-gradient(to right, #d51f13, #fb463b);
+      border-color: #ffc6c6;
+    }
+    .text {
+      margin-left: 55px;
+      padding-right: 60px;
+      text-transform: uppercase;
+      margin-top: 5px;
+      line-height: 1;
+    }
+    .logo {
+      z-index: 1;
+      position: absolute;
+      transform: rotate(15deg);
+      width: 33px;
+      left: -6px;
+      bottom: 23px;
+    }
+
+    .crystal {
+      z-index: 1;
+      position: absolute;
+      width: 95px;
+      top: -20px;
+      left: -35px;
+    }
+    .crystalYT {
+      z-index: 1;
+      position: absolute;
+      width: 78px;
+      top: -14px;
+      left: -25px;
+    }
+    .reward {
+      display: flex;
+      align-items: flex-end;
+      gap: 10px;
+      flex-direction: row;
+      font-family: "RaceSport";
+      position: absolute;
+      left: -3.5px;
+      width: 200px;
+      bottom: -3.5px;
+      padding: 2px;
+      border-radius: 20px;
+      border: 3.5px solid #aefac0;
+      background: linear-gradient(to right, #21996c, #21996c);
+      .tokens {
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+        margin-left: 45px;
+        align-items: flex-end;
+      }
+      .plus {
+        width: 15px;
+        align-self: center;
+      }
+      .coin {
+        width: 25px;
+      }
+      .energy {
+        width: 25px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        gap: 3px;
+      }
+    }
+    .plusbutton {
+      position: absolute;
+      width: 70px;
+      right: 5px;
+      bottom: 2px;
+      cursor: pointer;
+    }
+    .disabled {
+      pointer-events: none;
+    }
+  }
+}
+
+@media (max-width: 420px), (max-height: 720px) {
+  .earn-content {
+    padding: 20px;
+    overflow-y: scroll;
+    max-height: 55vh;
+    margin-top: 0px;
+  }
+}

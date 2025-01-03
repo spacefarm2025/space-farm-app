@@ -1,0 +1,118 @@
+.balances-in-market {
+  display: flex;
+  width: 50vw;
+  margin-left: 0vw;
+  position: relative;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+
+.balances-in-market p {
+  font-family: "RaceSport";
+  font-size: 16px;
+}
+
+.balances-in-market .token-image {
+  width: 35px;
+  height: 35px;
+  z-index: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 0; */
+  background-color: #33333320;
+  color: #000;
+}
+
+li > div {
+  display: flex;
+  align-items: center;
+}
+li > div:first-child {
+  gap: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  padding: 10px 10px;
+  margin-right: 10px;
+  margin-top: 10%;
+}
+
+li > div:last-child {
+  gap: 10px;
+}
+
+button {
+  background: linear-gradient(90deg, #0000002e, #0000003d);
+  color: black;
+  font-weight: 600;
+  border: none;
+  border-radius: 15%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.buy {
+  width: 90%;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-top: 5px;
+  background: var(--button-gradient);
+  color: black;
+  font-weight: 600;
+}
+
+#lock-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lock-content {
+  background-color: rgba(189, 186, 186, 0.95);
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lock-content span {
+  color: black;
+}
+
+.lock-content img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.center-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

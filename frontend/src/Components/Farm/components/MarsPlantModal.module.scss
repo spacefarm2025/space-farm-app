@@ -1,0 +1,79 @@
+.modalHeading {
+  list-style: none;
+  background: url("../../../assets/modals/Name.png") no-repeat center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  position: relative;
+  top: -15px;
+}
+
+.rotatedText {
+  transform: rotate(13deg);
+  display: inline-block;
+  color: #613405;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.containerPlantation {
+  margin: 0 auto;
+  max-width: 250px;
+  position: relative;
+  height: 120px;
+  padding: 10px 20px;
+}
+
+.plantingBtnHarvest {
+  background: url("../../../assets/modals/water-cost.png") no-repeat center;
+  background-size: contain;
+  height: 90px;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  color: #fff;
+  .flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.energySlider {
+  width: 100%;
+  margin: 10px 0 0 0;
+  color: #f0c336;
+}
+
+.chargeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #f0c336, #f49808);
+  border: 2px solid #fef094;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 15px;
+  color: #613405;
+  margin-top: 10px;
+  .battery {
+    width: 30px;
+  }
+}
+
+.energyLabel {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  .battery {
+    width: 20px;
+  }
+}
+
+.min {
+  color: #f49808;
+}

@@ -1,0 +1,122 @@
+.accordion {
+  width: 85vw;
+  border: 3px solid #ffc9f9;
+  border-radius: 15px;
+  margin: 12px auto;
+  background-color: #490569;
+  &.SHIB {
+    background-color: #943131;
+    border: 3px solid #fcbead;
+    .balanceInfo {
+      color: #650a0a;
+    }
+    .accordionHeader {
+      background-color: #c94343;
+      border: 3px solid #fcbead;
+    }
+  }
+  &.PEPE {
+    background-color: #34652d;
+    border: 3px solid #b7dcba;
+    .balanceInfo {
+      color: #245008;
+    }
+    .accordionHeader {
+      background-color: #4c9641;
+      border: 3px solid #b7dcba;
+    }
+  }
+  &.USDT {
+    background-color: #2e6e63;
+    border: 3px solid #d5fffc;
+    .balanceInfo {
+      color: #084e45;
+    }
+    .accordionHeader {
+      background-color: #3d9283;
+      border: 3px solid #d5fffc;
+    }
+  }
+}
+.accordionHeader {
+  background-color: #8b38b3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 10px;
+  height: 60px;
+  border: 3px solid #ffc9f9;
+  border-radius: 15px;
+  margin: -2px;
+}
+.balanceSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  h3 {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 8px;
+  }
+}
+
+.accordionContent {
+  max-height: 0;
+  overflow: hidden;
+  transition:
+    max-height 0.5s ease-out,
+    padding 0.5s ease-out;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.accordionContent {
+  &.open {
+    max-height: 300px; // Ограничиваем максимальную высоту при открытии
+  }
+}
+
+.balanceInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 3px;
+  font-size: 15px;
+  color: #eac0ff;
+}
+.logo {
+  width: 60px;
+}
+
+.exchangeGroup {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1px;
+  p {
+    color: #eac0ff;
+    font-size: 13px;
+  }
+  span {
+    color: #fff;
+  }
+}
+
+.logoGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
+  .swapLogo {
+    width: 25px;
+  }
+  .arrow {
+    width: 8px;
+  }
+  .tokenLogo {
+    width: 25px;
+  }
+}

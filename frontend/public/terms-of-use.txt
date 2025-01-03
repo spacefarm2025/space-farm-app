@@ -1,0 +1,79 @@
+Space Farm Bot Privacy Policy
+This Privacy Policy outlines the rules and principles governing the collection, processing, and storage of user data for Space Farm Bot on the Telegram platform. By using Space Farm Bot, you agree to this Privacy Policy. If you do not agree, please discontinue your use of the service immediately.
+
+1. Terms and Definitions
+1.1. Space Farm Bot – A third-party bot developed and maintained by Space Farm.
+1.2. Platform – The Telegram Bot Platform.
+1.3. Developer – The person or legal entity responsible for operating and maintaining Space Farm Bot.
+1.4. User – The individual using Space Farm Bot (also "you").
+1.5. Policy – This document, which governs the relationship between Space Farm Bot and its Users.
+
+2. General Provisions
+2.1. This Policy applies to all users of Space Farm Bot and governs how user data is collected, processed, stored, and protected.
+
+2.2. The relationship between Space Farm Bot and its Users is independent of Telegram Messenger Inc., and this Policy does not replace or override the Telegram Privacy Policy.
+
+2.3. The Developer adheres to all relevant privacy guidelines, including Telegram's Bot and Mini App Terms, Apple's App Review Guidelines, and Google's Developer Policies.
+
+2.4. Your continued use of Space Farm Bot signifies your acceptance of this Policy, as well as Telegram's Bot Terms and Mini App Terms.
+
+2.5. If you do not agree to the terms of this Policy, you must cease your use of Space Farm Bot immediately.
+
+3. Collection of Personal Data
+3.1. Space Farm Bot collects only the data necessary to provide and enhance its services. This may include:
+
+Telegram User ID
+Messages or commands you send to the bot
+Optional information such as your email address or contact details (only when explicitly shared by you).
+3.2. Space Farm Bot does not access or process sensitive data unless explicitly shared by the User.
+
+3.3. The bot may also collect anonymized data such as usage patterns, error reports, or diagnostic information to improve its functionality.
+
+4. Processing of Personal Data
+4.1. Space Farm Bot processes your data solely to provide its intended functionality. This includes responding to commands, processing transactions, or delivering notifications.
+
+4.2. The Developer does not monetize, share, or use your data for purposes beyond the scope of the bot's intended features.
+
+4.3. Personal data is not transferred to third parties unless explicitly required by law or agreed to by the User.
+
+5. Data Protection
+5.1. Space Farm Bot employs robust security measures to protect User data, including encryption, secure storage, and restricted access.
+
+5.2. User data is handled in compliance with applicable laws and is only accessible to authorized personnel.
+
+5.3. Data shared by Users will never be disclosed to unauthorized third parties, except when required by law (e.g., a valid court order).
+
+6. User Rights
+As a User, you have the following rights regarding your data:
+
+6.1. Access: Request a copy of the personal data collected and stored by Space Farm Bot.
+
+6.2. Correction: Request updates or corrections to any inaccurate or outdated personal data.
+
+6.3. Deletion: Request the deletion of all personal data, except for data required to comply with legal obligations or defend legal claims.
+
+6.4. Consent Withdrawal: Withdraw your consent to data processing and discontinue use of Space Farm Bot.
+
+6.5. To exercise these rights, please contact us at admin@crypto-farm.space. We will respond within 30 days of receiving your request.
+
+7. Developer Obligations
+7.1. The Developer ensures compliance with this Policy and applicable laws, including data protection regulations.
+
+7.2. The Developer will promptly notify Users of any changes to this Policy or updates affecting the processing of personal data.
+
+8. Changes to this Privacy Policy
+8.1. Space Farm Bot may update this Privacy Policy periodically.
+
+8.2. Users will be notified of significant changes, and continued use of Space Farm Bot constitutes acceptance of the updated Policy.
+
+8.3. The latest version of this Privacy Policy will always be available at https://crypto-farm.space/privacy.
+
+9. Governing Law
+This Privacy Policy is governed by the laws of Lithuania. Any disputes shall first be resolved through negotiation. If resolution is not achieved, disputes will be handled by the competent courts of Lithuania.
+
+10. Contact Us
+If you have any questions or concerns about this Privacy Policy, please contact us:
+
+Email: admin@crypto-farm.space
+Website: https://crypto-farm.space
+This Privacy Policy ensures your data is processed transparently, securely, and in compliance with applicable laws. By using Space Farm Bot, you agree to the terms outlined herein.

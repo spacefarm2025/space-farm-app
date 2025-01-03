@@ -1,0 +1,71 @@
+.wheelContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.wheelFrame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: min(82vw, 43vh);
+  height: min(93vw, 48vh);
+  max-width: 451px;
+  max-height: 514px;
+  z-index: 1;
+  pointer-events: none;
+  .wrapper {
+    font-family: "RaceSport", sans-serif;
+    transform: rotate(-90deg);
+    > canvas {
+      height: min(75vw, 40vh);
+      width: min(75vw, 40vh);
+      max-width: 400px;
+      max-height: 400px;
+    }
+  }
+}
+
+.frameImage {
+  position: absolute;
+  margin-bottom: 30px;
+  margin-right: 6px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.segmentText {
+  font-family: "Gumdrop", sans-serif;
+}
+
+.spinButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  width: 85px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.spins {
+  text-align: center;
+  color: #fff;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.title {
+  margin: 5px;
+  font-size: 20px;
+}

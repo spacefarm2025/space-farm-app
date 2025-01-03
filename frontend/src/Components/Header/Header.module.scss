@@ -1,0 +1,83 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 15px 0;
+  justify-content: space-between;
+  background: var(--background-color);
+  z-index: 1001;
+}
+
+@media (max-width: 420px), (max-height: 720px) {
+  .header {
+    padding: 3px 0;
+  }
+}
+
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 60px;
+  color: var(--secondary);
+  width: 100%;
+  font-size: 20px;
+}
+
+.leftHeader,
+.rightHeader {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+}
+
+.leftHeader {
+  // background-image: url("../../assets/header/money.png");
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  height: 48px;
+  .hypeButton {
+    height: 80px;
+    margin: 2px;
+    cursor: pointer;
+  }
+}
+
+.rightHeader {
+  flex-direction: column;
+  align-items: flex-end;
+  width: 150px;
+  justify-content: space-evenly;
+  .wheelButton {
+    height: 80px;
+    margin: 2px;
+    cursor: pointer;
+  }
+}
+
+.energyContainer {
+  font-size: 24px;
+  background-size: cover;
+  width: 90%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/header/energy.png");
+}
+
+.leftHeader p,
+.rightHeader p {
+  // margin-left: 60px;
+  font-family: "RaceSport";
+}
+
+.balance {
+  cursor: pointer;
+  // background-image: url("../../assets/header/money.png");
+}

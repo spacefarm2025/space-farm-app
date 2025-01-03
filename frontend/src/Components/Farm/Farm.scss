@@ -1,0 +1,236 @@
+.planting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  // min-height: 200px;
+
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.planting:hover {
+  transform: scale(1.05);
+}
+
+.planting img {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+
+.locked-mars {
+  width: 30px !important;
+}
+.claim-saturn {
+  width: 50px !important;
+  position: absolute;
+  right: 0%;
+  bottom: 40%;
+}
+
+/* Styling for the overlay, if needed */
+.garden-bed-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.garden-bed-hammer {
+  width: 50px;
+  height: auto;
+  opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+  .plantings {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.islands-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.planting {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+}
+
+.planting-1 {
+  &.plant-earth {
+    top: 8%;
+    right: 13%;
+  }
+  &.plant-moon {
+    top: 8%;
+    right: 8%;
+  }
+  &.plant-mars {
+    top: 9%;
+    right: 12%;
+  }
+  &.plant-saturn {
+    top: 0%;
+    right: 32%;
+  }
+}
+.planting-2 {
+  &.plant-earth {
+    top: 47%;
+    left: 0%;
+  }
+  &.plant-moon {
+    top: 47%;
+    left: 0%;
+  }
+
+  &.plant-mars {
+    top: 42%;
+    left: 10%;
+  }
+  &.plant-saturn {
+    top: 28%;
+    left: 10%;
+  }
+}
+
+.planting-3 {
+  &.plant-earth {
+    top: 70%;
+    left: 60%;
+  }
+  &.plant-moon {
+    top: 60%;
+    left: 62%;
+  }
+  &.plant-mars {
+    top: 68%;
+    right: 10%;
+  }
+  &.plant-saturn {
+    top: 63%;
+    right: 20%;
+  }
+}
+
+@media (max-width: 420px) {
+  .planting img {
+    width: 90%;
+  }
+
+  .planting-1 {
+    &.plant-earth {
+      top: 0%;
+      right: 13%;
+    }
+    &.plant-moon {
+      top: 10%;
+      right: 5%;
+    }
+    &.plant-mars {
+      top: 12%;
+      right: 11%;
+    }
+    &.plant-saturn {
+      top: 12%;
+      right: 11%;
+    }
+  }
+
+  .planting-2 {
+    &.plant-earth {
+      top: 40%;
+      left: 0%;
+    }
+    &.plant-mars {
+      top: 35%;
+      right: 10%;
+    }
+    &.plant-saturn {
+      top: 35%;
+      right: 10%;
+    }
+  }
+
+  .planting-3 {
+    &.plant-earth {
+      top: 60%;
+      right: 10%;
+    }
+  }
+
+  .islands-container {
+    top: 90px;
+  }
+}
+
+@media (max-width: 360px) {
+  .planting-1 {
+    &.plant-earth {
+      top: 4%;
+      right: 11%;
+    }
+    &.plant-moon {
+      top: 5%;
+      right: 3%;
+    }
+    &.plant-mars {
+      top: 6%;
+      right: 11%;
+    }
+    &.plant-saturn {
+      top: 6%;
+      right: 11%;
+    }
+  }
+  .planting-2 {
+    &.plant-earth {
+      top: 38%;
+      left: 0%;
+    }
+    &.plant-moon {
+      top: 37%;
+      left: 0%;
+    }
+    &.plant-mars {
+      top: 30%;
+      left: 10%;
+    }
+    &.plant-saturn {
+      top: 30%;
+      left: 10%;
+    }
+  }
+  .planting-3 {
+    &.plant-moon {
+      top: 50%;
+    }
+    &.plant-earth {
+      top: 60%;
+      left: 60%;
+    }
+    &.plant-mars {
+      top: 60%;
+      right: 9%;
+    }
+    &.plant-saturn {
+      top: 60%;
+      right: 9%;
+    }
+  }
+}

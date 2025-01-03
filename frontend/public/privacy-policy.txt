@@ -1,0 +1,85 @@
+Privacy Policy
+
+GENERAL INFORMATION
+This Privacy Policy is effective immediately for Users after this date. Space Farm Bot respects your privacy and is committed to protecting it through compliance with this Privacy Policy. This policy describes:
+
+The types of information that we may collect from you when you access or use our services, including our Website, Telegram Bot, and other online platforms (collectively referred to as the "Services").
+Our practices for collecting, using, maintaining, protecting, and disclosing that information.
+This policy applies only to information we collect through our Services and in the electronic communications sent through or in connection with our Services.
+
+DEFINITIONS
+The following terms are used in this Privacy Policy:
+
+"Content" includes (but is not limited to) images, photos, audio, video, location data, 'nearby places,' and all other forms of information or data.
+"Consent" means a free and unambiguous expression of the User’s will under declaration or unequivocal actions pursuant to which the User gives consent to process any Personal Data related to them.
+"Cookies" are small data files stored on your device by a website or service to improve your experience and provide customized functionality.
+"Personal Data" or "Data" refers to any information about a User whose identity has been identified or can be directly or indirectly identified (the "data subject").
+"Services" refers to all the services provided by the Space Farm Bot through its Website, Telegram Bot, and other platforms.
+"User," "you," or "your" refers to anyone accessing or using the Services for the purpose of interacting with the bot, sharing information, conducting transactions, or any other related activity.
+"Website" refers to the Space Farm Bot's internet website, available at https://crypto-farm.space.
+WHAT INFORMATION DO WE COLLECT FROM OUR USERS?
+Space Farm Bot may collect and use certain information from and about its Users. We collect only the data essential to our operations and to improve your experience. This information includes:
+
+Personal Information:
+
+Contact details like your email address or any other communication data shared voluntarily.
+Preferences and settings such as time zone, language, or cryptocurrency choices, which we use to personalize your experience.
+Behavioral Information:
+
+The search terms you use and your activity within our Services.
+Browsing information, such as the features you use, the duration of your activity, and other usage details.
+Transactional Information:
+
+If you make payments or transactions through our Services, we may collect payment details or other relevant data to process and facilitate these actions.
+Location Data:
+
+If permitted by your device's privacy settings, we may collect location information to offer localized services or enhance your experience.
+Communications:
+
+Correspondence between you and our support team regarding the Services.
+HOW DO WE COLLECT INFORMATION?
+We collect information through various means, depending on how you interact with the Services:
+
+Voluntarily Provided: When you provide information directly, such as during registration, transactions, or interactions with customer support.
+Automatically Collected: Through tools such as cookies, log files, and analytics platforms (e.g., Google Analytics), we gather non-identifiable information about your browsing habits and behavior within our Services.
+WHAT DO WE DO WITH THE INFORMATION WE COLLECT?
+The information collected is used to:
+
+Enhance your experience by delivering personalized and relevant content.
+Improve the functionality and performance of our Services.
+Communicate with you about updates, notifications, or any issues related to your use of our Services.
+Fulfill legal and regulatory obligations.
+We do not sell or rent your personal data to third parties. Your information may be shared only with trusted third parties under specific circumstances, such as payment processors, legal obligations, or when you provide explicit consent.
+
+RIGHTS OF THE USERS
+You have the following rights regarding your Personal Data:
+
+Access: Know what Personal Data we have about you and how we process it.
+Correction: Request updates or corrections to inaccurate information.
+Deletion: Request the deletion of your data ("right to be forgotten") under certain conditions.
+Restriction: Request a limitation on the processing of your Personal Data in specific cases.
+Objection: Object to the use of your data for certain purposes, such as direct marketing.
+To exercise these rights, please contact us at admin@crypto-farm.space.
+
+DATA RETENTION
+We retain your Personal Data only as long as necessary to fulfill the purposes outlined in this Privacy Policy or as required by law. Typically, this is a maximum of five (5) years, after which the data will be securely deleted.
+
+SECURITY
+We implement appropriate technical and organizational measures to protect your Personal Data. While we strive to ensure the highest level of security, no system is entirely foolproof. In the event of a data breach, we will notify affected Users promptly and take all necessary measures to mitigate the risk.
+
+TERMINATION
+If you disagree with this Privacy Policy, you must stop using the Space Farm Bot immediately. Space Farm Bot reserves the right to suspend or terminate access to its Services if we suspect a breach of this Privacy Policy or our Terms of Service.
+
+CHANGES TO THIS POLICY
+Space Farm Bot may update this Privacy Policy from time to time. Continued use of our Services after such updates constitutes your acceptance of the revised policy. We encourage you to periodically review this page for any changes.
+
+GOVERNING LAW
+This Privacy Policy is governed by the laws of Lithuania. Any disputes shall first be resolved through negotiation. If this fails, disputes will be submitted to the competent courts of Lithuania.
+
+COPYRIGHT
+All content on the Space Farm Bot platform, including text, graphics, animations, and videos, is protected by copyright. Reproduction, distribution, or use of this content without explicit written permission is prohibited.
+
+CONTACT US
+For questions, concerns, or requests regarding this Privacy Policy or the use of our Services, please contact us:
+Email: admin@crypto-farm.space
+Website: https://crypto-farm.space

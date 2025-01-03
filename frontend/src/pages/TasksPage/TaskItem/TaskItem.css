@@ -1,0 +1,41 @@
+.task-item-container {
+  height: 100px;
+  width: 100%;
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--secondary);
+}
+
+.task-status-button {
+  width: 75px;
+  border-radius: 5px;
+}
+
+.task-status-button:disabled {
+  background-color: transparent;
+}
+
+.task-item-text {
+  display: flex;
+  gap: 0px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  font-family: "RaceSport";
+  position: relative;
+  bottom: -15px;
+  width: 150px;
+  margin-left: 22%;
+}
+
+.ico-in-text-x2 {
+  height: 2em;
+  width: 2em;
+}
+
+.task-item-name {
+  font-size: 18px;
+  text-transform: uppercase;
+}

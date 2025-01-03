@@ -1,0 +1,178 @@
+.bestCatsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  width: 100%;
+  max-width: 370px;
+  overflow-y: scroll;
+  min-height: 200px;
+  height: 370px;
+}
+
+.playerItem {
+  background: url("../../../assets/leaderboard/other.png") no-repeat center
+    center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+  height: 40px;
+  min-height: 40px;
+}
+
+.firstPlayer {
+  background: url("../../../assets/leaderboard/first.png") no-repeat center
+    center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+  height: 40px;
+  min-height: 40px;
+}
+
+.secondPlayer {
+  background: url("../../../assets/leaderboard/second.png") no-repeat center
+    center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+  height: 40px;
+  min-height: 40px;
+}
+
+.thirdPlayer {
+  background: url("../../../assets/leaderboard/third.png") no-repeat center
+    center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+  height: 40px;
+  min-height: 40px;
+}
+
+.rank {
+  font-weight: bold;
+  font-family: "RaceSport";
+  margin-right: 10%;
+  margin-left: 4%;
+  font-size: 24px;
+  color: #e3a9ff;
+}
+
+.divider {
+  margin-right: 20%;
+}
+
+.name {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.score {
+  font-weight: bold;
+  font-family: "RaceSport";
+  margin-right: 5%;
+  // background-color: #FFD700; // Золотистый фон для счета
+  // padding: 5px 10px;
+  // border-radius: 5px;
+}
+
+.userItem {
+  background: url("../../../assets/leaderboard/your-score.png") no-repeat center
+    center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 18px;
+  height: 40px;
+  min-height: 35px;
+}
+
+.userName {
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 5%;
+  color: #613405;
+}
+
+.userScore {
+  font-weight: bold;
+  font-family: "RaceSport";
+  margin-right: 10%;
+}
+
+.titleImage {
+  position: relative;
+  width: 200px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.customButton {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #ccc0;
+}
+
+.sliderArrow {
+  width: 80%;
+  height: auto;
+}
+
+@media (max-width: 420px), (max-height: 720px) {
+  .titleImage {
+    width: 50%;
+  }
+}

@@ -1,0 +1,147 @@
+//BUTTON
+
+.connectButton {
+    display: inline-block;
+    top: -3vh;
+    width: 200px;
+    height: 35px;
+    color: #552c0b;
+    background: linear-gradient(to right, #efc437, #f59809);
+    border-radius: 50px;
+    border: 2px solid #fff396;
+    cursor: pointer;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+
+    box-shadow: inset 0 -3px 0 #613405;
+
+    img {
+        border-radius: 20px;
+        position: absolute;
+        left: 10px;
+        bottom: 6px;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.connectButton:hover {
+    transform: translateY(-3px);
+}
+
+.connectButton:active {
+    transform: translateY(3px);
+    box-shadow: inset 0 2px 0 #8a4b00;
+}
+
+.tonConnectContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    margin-top: -13vh;
+
+    .connect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+}
+
+.walletInfo {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+button {
+    margin: 5px;
+}
+
+.buttonGroup {
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    button {
+        max-width: 100%;
+        min-width: 150px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .withdrawButton {
+        // background-color: gray;
+        // border: 2px solid rgb(174, 174, 174);
+        border: 2px solid #baeae7;
+        background: linear-gradient(to right, #2db683, #22a473);
+        color: #034d2e;
+    }
+    .depositButton {
+        // background-color: gray;
+        // border: 2px solid rgb(174, 174, 174);
+        border: 2px solid #fff396;
+        background: linear-gradient(to right, #efc336, #f4990a);
+        color: #613405;
+    }
+    .exchangeButton {
+        border: 2px solid #fff396;
+        background: linear-gradient(to right, #efc336, #f4990a);
+        color: #613405;
+    }
+}
+
+.inputField {
+    width: 100%;
+    max-width: 100px;
+    padding: 10px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    background: transparent;
+    color: #fff;
+    font-weight: 700;
+}
+
+.inputField:focus {
+    border-color: #8323b1;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.verificationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        max-width: 100%;
+        min-width: 150px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .verifyButton {
+        // background-color: gray;
+        // border: 2px solid rgb(174, 174, 174);
+        border: 2px solid #baeae7;
+        background: linear-gradient(to right, #2db683, #22a473);
+        color: #034d2e;
+    }
+}

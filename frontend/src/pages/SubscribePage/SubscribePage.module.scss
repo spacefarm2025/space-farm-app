@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background: linear-gradient(to bottom, rgb(0 0 0) 0%, rgb(138, 43, 226) 100%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin: 20px 0;
+    line-height: 1.4;
+    max-width: 600px; 
+  }
+  
+  .button {
+    padding: 0px 10px;
+    font-size: 22px;
+    color: white;
+    // background-color: #007BFF; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .gradientText {
+    font-size: 24px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#ffd1fd, #b80891);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .button {
+    background-image: url('../../assets/modals/Continue.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 40px;
+    margin: 10px;
+  }
+
+
+  
+  

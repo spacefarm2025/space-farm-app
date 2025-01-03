@@ -1,0 +1,103 @@
+/* @font-face {
+  font-family: "Play";
+  src: url("../public/fonts/Play-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "Play-Bold";
+  src: url("../public/fonts/Play-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Play";
+  src: url("../public/fonts/Play-Regular.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RaceSport";
+  src: url("../public/fonts/RaceSport.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Play-Bold", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+h1,
+h3 {
+  font-family: "RaceSport", sans-serif;
+}
+
+h2 {
+  font-family: "Play-Bold", sans-serif;
+}
+
+p {
+  margin: 0;
+  font-family: "Play-Bold", sans-serif;
+}
+
+.numbers {
+  font-family: "RaceSport", sans-serif;
+}
+
+:root {
+  --primary: black;
+  --secondary: #fff;
+  /* --secondary: #cbce91ff; */
+
+  --button-gradient: linear-gradient(0deg, #e2d1f9, #c4aef8, #e2d1f9);
+  --button-unactive-gradient: linear-gradient(0deg, #f0f0f0, #d9d9d9, #f0f0f0);
+}
+
+.unactive-button {
+  color: var(--secondary);
+  background: var(--button-unactive-gradient);
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-top: 5px;
+  background: var(--button-gradient);
+  color: black;
+  font-weight: 600;
+  min-height: 32px;
+  font-family: "Play-Bold", sans-serif;
+}
+
+.name {
+  min-height: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

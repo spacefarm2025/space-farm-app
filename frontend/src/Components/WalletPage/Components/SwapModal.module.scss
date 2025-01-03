@@ -1,0 +1,84 @@
+.containerSwap {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 200px;
+  position: relative;
+  padding: 15px;
+  text-align: center;
+  .imgContainer {
+    top: 25px;
+    left: -35px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    .coinImg {
+      width: 40px;
+    }
+    .arrowImg {
+      width: 20px;
+    }
+  }
+  .calculatedAmount {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    color: #62fbc2;
+    font-size: 12px;
+  }
+  .inputContainer {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .amountInput {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #fecafe;
+    border-radius: 8px;
+    background: transparent;
+    max-width: 200px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #fff;
+
+    &::placeholder {
+      color: #fecafe;
+      opacity: 1;
+    }
+
+    &:-ms-input-placeholder {
+      color: #fecafe;
+    }
+
+    &::-ms-input-placeholder {
+      color: #fecafe;
+    }
+  }
+  .error {
+    position: absolute;
+    bottom: 0;
+    height: 25px;
+    font-size: 13px;
+    color: red;
+  }
+  .swapButton {
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}

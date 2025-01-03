@@ -1,0 +1,60 @@
+/* .garden-beds-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40%;
+    max-width: 100vw;
+    clip-path: inherit
+  }
+  
+
+  .garden-bed {
+    position: relative;
+    --garden-bed-width: 30vw; 
+    width: var(--garden-bed-width);
+    height: var(--garden-bed-width);
+    margin-bottom: 10px;
+  }
+  
+  .garden-bed img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(102, 0, 204, 0.3)) drop-shadow(0 0 20px rgba(102, 0, 204, 0.5)) drop-shadow(0 0 30px rgba(102, 0, 204, 0.7)) drop-shadow(0 0 40px rgba(102, 0, 204, 1));
+    -webkit-filter: drop-shadow(0 0 10px rgba(102, 0, 204, 0.3)) drop-shadow(0 0 20px rgba(102, 0, 204, 0.5)) drop-shadow(0 0 30px rgba(102, 0, 204, 0.7)) drop-shadow(0 0 40px rgba(102, 0, 204, 1));
+    will-change: filter;
+    z-index: 3;
+  }
+
+  .garden-bed .img-overlay {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.2)) drop-shadow(0 0 20px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 30px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 40px rgba(255, 255, 255, .8));
+    -webkit-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.2)) drop-shadow(0 0 20px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 30px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 40px rgba(255, 255, 255, .8));
+    will-change: filter;
+    z-index: 3;
+  }
+  
+  .garden-bed-overlay {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.2)) drop-shadow(0 0 20px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 30px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 40px rgba(255, 255, 255, .8));
+    -webkit-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.2)) drop-shadow(0 0 20px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 30px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 40px rgba(255, 255, 255, .8));
+    display: flex;
+    will-change: filter;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+  }
+   */
+  /* .garden-bed-hammer {
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+  } */

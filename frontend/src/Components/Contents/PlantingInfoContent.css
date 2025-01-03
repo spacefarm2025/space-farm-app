@@ -1,0 +1,165 @@
+/* PlantingInfoContent.css */
+.modal-heading {
+  list-style: none;
+  background: url("../../assets/modals/Name.png") no-repeat center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  position: relative;
+  top: -15px;
+}
+
+.rotated-text {
+  transform: rotate(13deg);
+  display: inline-block;
+  color: #613405;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.seeds {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 0px;
+  height: 140px;
+  position: relative;
+  top: -50px;
+}
+
+.seed {
+  background: url("../../assets/modals/choose-product.png") no-repeat center;
+  background-size: contain;
+  position: relative;
+  margin: -10px 0; /* Меньший промежуток между элементами */
+}
+
+.seed-button {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 80px;
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seed-image {
+  width: 50px;
+  height: 50px;
+  max-height: 50px;
+  margin-top: 30%;
+}
+
+.lock-overlay {
+  position: absolute;
+  top: 45%;
+  left: 27px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lock-overlay img {
+  width: 20px;
+  height: auto;
+}
+
+.seed-position-1 {
+  align-self: flex-start;
+}
+
+.seed-position-2 {
+  align-self: center;
+}
+
+.seed-position-3 {
+  align-self: flex-end;
+}
+
+.planting-btn {
+  background: url("../../assets/modals/water-cost.png") no-repeat center;
+  background-size: contain;
+  height: 90px;
+  width: 100%;
+  border-radius: 10px;
+  /* margin: 10px 0; */
+  position: relative;
+  /* top: -40px; */
+  color: #fff;
+}
+
+.planting-btn-harvest {
+  background: url("../../assets/modals/water-cost.png") no-repeat center;
+  background-size: contain;
+  height: 90px;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  color: #fff;
+}
+
+.plantation-info {
+  display: flex;
+  justify-content: space-around;
+  color: var(--primary);
+  font-size: 20px;
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+.plantation-info-collect {
+  background: url("../../assets/modals/income.png") no-repeat center;
+  background-size: contain;
+  display: flex;
+  justify-content: space-around;
+  color: var(--secondary);
+  margin-bottom: -40px;
+  height: 45px;
+}
+
+.span-collect {
+  padding: 15px 10px 10px 45px;
+  font-family: "RaceSport";
+}
+
+.plantation-info span {
+  width: 50%;
+  text-align: center;
+}
+
+.earn_tokens .token-image {
+  width: 25px;
+  height: 25px;
+}
+
+.earn_tokens {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+  justify-content: center;
+}
+
+.container-plantation {
+  position: relative;
+  top: -30px;
+  padding: 20px;
+}
+
+.energy-img {
+  width: 25px;
+  height: 25px;
+}
+
+.transparent-background {
+  background: transparent;
+  height: 35px;
+}

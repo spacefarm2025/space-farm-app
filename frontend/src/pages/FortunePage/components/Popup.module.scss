@@ -1,0 +1,77 @@
+.popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupContent {
+  background: linear-gradient(180deg, #51105b 0%, #8a1ca4 100%);
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 4px solid #f1c854;
+  width: 300px;
+  color: #fff;
+
+  h2 {
+    margin: 0;
+    padding: 10px 0;
+    color: #f1c854;
+  }
+
+  .popupHeader {
+    background: linear-gradient(180deg, #51105b 0%, #8a1ca4 100%);
+    border-radius: 20px;
+    border-bottom: 4px solid #f1c854;
+  }
+
+  .popupBody {
+    padding: 20px;
+  }
+
+  img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .withdrawButton {
+    background: #ff00ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+}
+
+.closeButton {
+  margin-top: 20px;
+  height: 80px;
+  width: auto;
+  cursor: pointer;
+}
+
+.popButton {
+  background: #b828dc;
+  border: 4px solid #f1c854;
+  color: #650a7b;
+  font-size: 24px;
+  text-shadow: 0px 1px 0px #ffddf6;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0px -11px 0px 0px #650a7b inset;
+  -webkit-box-shadow: 0px -7px 0px 0px #650a7b inset;
+  -moz-box-shadow: 0px -11px 0px 0px #650a7b inset;
+  text-transform: uppercase;
+  position: relative;
+  transition: transform 0.2s;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

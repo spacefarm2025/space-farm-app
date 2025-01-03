@@ -1,0 +1,64 @@
+.soon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.soon-header {
+  margin-bottom: 10px;
+}
+
+.soon-card {
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+  width: 90%;
+  max-width: 350px;
+}
+
+.soon-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.soon-max {
+  font-weight: bold;
+  color: #ff5722;
+}
+
+.soon-task {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.soon-invite,
+.invite-left {
+  color: #333;
+}
+
+.img-in-text {
+  width: 20px;
+  height: auto;
+}
+
+.modal-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+
+.numbers-soon {
+  color: #613405;
+}
+
+.soon-modal-img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}

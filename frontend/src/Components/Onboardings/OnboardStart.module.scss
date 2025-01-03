@@ -1,0 +1,78 @@
+.welcomePanel {
+  /* background: url("../../assets/modals/Welcome.png") no-repeat center;
+  background-size: cover; */
+
+  margin-top: auto;
+  padding-bottom: 20px;
+}
+
+.heroImg {
+  width: 80%;
+  height: auto;
+}
+
+.gradientText {
+  font-size: 24px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#ffd1fd, #b80891);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-family: "RaceSport";
+}
+
+.welcomeH {
+  height: 13vh;
+}
+
+.heroModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1002;
+  background: linear-gradient(to bottom, rgba(255, 0, 255, 0) 0%, rgba(138, 43, 226, 1) 100%);
+  background-color: #0000008c;
+}
+
+.modalContentHero {
+  position: relative;
+  padding: 10px;
+  min-width: 70%;
+  max-width: 80%;
+  width: 100%;
+  list-style: none;
+
+  color: var(--secondary);
+  text-align: center;
+  background: none;
+  background-size: contain;
+  width: 100%;
+  max-height: 600px;
+}
+
+.continue {
+  background: url("../../assets/modals/Continue.png") no-repeat center;
+
+  background-size: contain;
+  left: 20px;
+  width: 150px;
+  height: 50px;
+  color: #613405;
+  text-transform: uppercase;
+}
+
+@media (max-width: 420px) {
+  .welcomeH {
+    height: 15vh;
+  }
+
+  .heroImg {
+    width: 60%;
+    height: auto;
+  }
+}

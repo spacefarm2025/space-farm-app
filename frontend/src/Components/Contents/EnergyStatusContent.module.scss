@@ -1,0 +1,85 @@
+.energyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .energyHeader {
+    margin-bottom: 10px;
+  }
+  
+  .energyCard {
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    width: 90%;
+    max-width: 350px;
+  
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  .energyMax {
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .energyTask {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .energyInvite,
+  .inviteLeft {
+    color: #333;
+  }
+  
+  .energyStatus {
+    background: url("../../assets/modals/energy-button.png") no-repeat center;
+    background-size: contain;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .imgInText {
+    width: 20px;
+    height: auto;
+  }
+  
+  .modalEnergy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+  }
+  
+  .energyButton {
+    background: url("../../assets/modals/get-energy-button.png") no-repeat center;
+    background-size: contain;
+    left: 20px;
+    width: 150px;
+    height: 50px;
+    color: #c3f2f6;
+    text-transform: uppercase;
+  }
+  
+  .numbersEnergy {
+    color: #613405;
+  }
+  
+  .energyModalImg {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+  }
+  

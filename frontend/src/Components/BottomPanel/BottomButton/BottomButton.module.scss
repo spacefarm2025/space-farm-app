@@ -1,0 +1,24 @@
+.bottomButton {
+  height: 75%;
+  max-height: 100px;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &Active {
+    height: 77%;
+  }
+
+  &Image {
+    height: 100%;
+  }
+
+  @media (max-width: 420px), (max-height: 720px) {
+    &Image {
+      height: 75px;
+    }
+  }
+}

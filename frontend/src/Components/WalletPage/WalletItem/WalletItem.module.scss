@@ -1,0 +1,46 @@
+.walletItemContainer {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  list-style: none;
+
+  background-image: url("../../../assets/wallet/exchange-box.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--secondary);
+}
+
+@media (max-width: 420px), (max-height: 720px) {
+  .walletItemContainer {
+    height: 85px;
+  }
+}
+
+.walletItemContainer img {
+  height: 50%;
+}
+
+.walletItemLockContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.tokenButton {
+  background-image: url("../../../assets/wallet/exchange.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 50px;
+  height: 50px;
+}

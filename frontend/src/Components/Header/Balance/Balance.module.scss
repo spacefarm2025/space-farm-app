@@ -1,0 +1,17 @@
+.balances {
+  background-image: url("../../../assets/header/money.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  padding: 11px 10px;
+  width: 100%;
+  height: 50px;
+
+  p {
+    color: #ffffff;
+    text-shadow: 0 0 5px #c971ff;
+    font-size: 26px;
+  }
+}
